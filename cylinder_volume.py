@@ -25,8 +25,8 @@ def main():
     while True:
         try:
             # input
-            radius = int(input("What is the radius: "))
-            height = int(input("What is the height: "))
+            radius = float(input("What is the radius: "))
+            height = float(input("What is the height: "))
             # runs volume_calculator()
             volume = volume_calculator(height=height, radius=radius)
             # output
